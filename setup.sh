@@ -44,3 +44,16 @@ function install_bundle {
 function default_theme {
    rake install
 }
+
+*)
+   install_git
+   install_rvm
+   install_ruby
+   switch_193
+   ruby_gems
+   git_clone
+   chdir
+   install_bundler
+   install_bundle
+   default_theme
+   ;;
