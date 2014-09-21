@@ -9,6 +9,10 @@ fi
 
 apt-get -y install git
 
+# Install curl
+
+apt-get -y install curl
+
 # Install RVM
 
 curl -L https://get.rvm.io | bash -s stable --ruby
